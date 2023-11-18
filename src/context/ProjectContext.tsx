@@ -40,11 +40,47 @@ const fullProjects = [
 
 ];
 
+
+const frontProjects = [
+  {
+    id: "1",
+    name: "Consultant website",
+    information:
+      "I do freelancing on my freetime, this is my personal consultant website made with UX in mind and developed with Nextjs, Mantine and typescript.",
+    netapp: "https://www.sm-dev.se/",
+    img: "/consult-page.png",
+    date: "Oct 17, 2023",
+    type: 'Custom'
+  },
+
+  {
+    id: "2",
+    name: "Ecom Store",
+    information:
+      "This was my last project from school, this project is on standby at the moment but will be brought to life again soon to be a fully functional ecom store.",
+    netapp: "https://watch-ecom-project.netlify.app/",
+    img: "/watch.png",
+    date: "Dec 20, 2022",
+    type: 'Custom'
+  },
+
+  {
+    id: "3",
+    name: "Track app",
+    information:
+      "This was a project made for fun, make a task and track your performance, goal was to make it as simple as possible with vanilla css and React.",
+    netapp: "https://www.mightanddelight.com/",
+    img: "/todoapp.png",
+    date: "june 6, 2023",
+    type: 'Custom'
+  },
+
+];
+
 export const ProjectContextProvider = ({ children }: any) => {
-  const [value, setValue] = useState(true); // Your initial context value
 
   return (
-    <ProjectContext.Provider value={{ value, setValue, fullProjects }}>
+    <ProjectContext.Provider value={{ fullProjects, frontProjects }}>
       {children}
     </ProjectContext.Provider>
   );
