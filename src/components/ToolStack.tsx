@@ -22,6 +22,7 @@ const ToolStack = () => {
         >
           <div  className="w-full max-w-[100px] justify-center ">
             <img
+            alt="icon"
               src={icon.img}
               className={`${icon.type === "round" ? "rounded-[10rem]" : ""} ${
                 icon.back === "black" ? "bg-black" : ""

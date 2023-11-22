@@ -51,7 +51,7 @@ const ProjectOne = () => {
                       </a>
                     </div>
                     <div>
-                      <img src={file.img} />
+                      <img src={file.img} alt="project"/>
                     </div>
                   </div>
                   <div className="group relative">
