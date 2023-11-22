@@ -6,6 +6,8 @@ import TechStack from "@/components/Techstack";
 import { IconContextProvider } from "@/context/IconContext";
 import Footer from "@/components/Footer";
 export default function Home() {
+
+
   return (
     <main className="max-w-[1800px] mx-auto">
       <Hero />
