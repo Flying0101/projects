@@ -45,7 +45,7 @@ const ProjectOne = () => {
                       </time>
                       <a
                         href="#"
-                        className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                        className="relative z-10 rounded-full mb-2 bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                       >
                         {file.type}
                       </a>
@@ -62,9 +62,7 @@ const ProjectOne = () => {
                       </a>
                     </h3>
                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-                      A fully custom web solution with the ability to change
-                      part of the website however you need them to be, and no
-                      need of an developer to keep the site up to date.
+                    {file.information}
                     </p>
                   </div>
                 </article>
