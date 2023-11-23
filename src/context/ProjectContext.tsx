@@ -69,7 +69,7 @@ const frontProjects = [
     name: "Track app",
     information:
       "This was a project made for fun, make a task and track your performance, goal was to make it as simple as possible with vanilla css and React.",
-    netapp: "https://www.mightanddelight.com/",
+    netapp: "https://check-list-edition.netlify.app",
     img: "/todoapp.png",
     date: "june 6, 2023",
     type: 'Custom'
