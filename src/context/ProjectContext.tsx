@@ -9,7 +9,7 @@ const fullProjects = [
     id: "1",
     name: "BoT LoreBook",
     information:
-      "A fully custom web solution with the ability to change part of the website however you wish, manage data and more directly from the cms.",
+      "A fully custom web solution using the best NextJs has to offer from static pages to API routes, manage data and more directly from the cms.",
     netapp: "https://lore.bookoftravels.com/",
     img: "/lore.png",
     date: "Nov 1, 2023",
@@ -20,7 +20,7 @@ const fullProjects = [
     id: "2",
     name: "BookOfTravels",
     information:
-      "A fully custom web solution with the ability to change part of the website however you wish, manage data and more directly from the cms.",
+      "A fully custom website with the ability to change part of the website however you wish, manage data and more directly from the cms.",
     netapp: "https://www.mightanddelight.com/book-of-travels",
     img: "/BoT.png",
     date: "May 30, 2023",
@@ -31,7 +31,7 @@ const fullProjects = [
     id: "3",
     name: "Might & Delight",
     information:
-      "A fully custom web solution with the ability to change part of the website however you wish, manage data and more directly from the cms.",
+      "A custom simple website styled with Mantine, optmizied for performance. This site also has the ability to manage data and more directly from the cms.",
     netapp: "https://www.mightanddelight.com/",
     img: "/main.png",
     date: "Jan 8, 2023",
