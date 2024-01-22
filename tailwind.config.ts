@@ -18,7 +18,6 @@ const config: Config = {
         main: '#FFFFFF',
         lighterSecondary: '#233B71',
         secondary: '#192A51',
-        // You can add more custom colors here if needed
       },
     },
   },
