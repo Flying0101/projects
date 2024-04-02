@@ -43,9 +43,7 @@ const ProjectOne = () => {
                     <time dateTime="2020-03-16" className="text-gray-500">
                       {file.date}
                     </time>
-                    <a
-                      className="relative z-10 rounded-full mb-2 bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-                    >
+                    <a className="relative z-10 rounded-full mb-2 bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
                       {file.type}
                     </a>
                   </div>
@@ -55,7 +53,7 @@ const ProjectOne = () => {
                 </div>
                 <div className="group relative">
                   <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                    <a >
+                    <a>
                       <span className="absolute inset-0"></span>
                       {file.name}
                     </a>
@@ -63,14 +61,14 @@ const ProjectOne = () => {
                   <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
                     {file.information}
                   </p>
-                  <br/>
+                  <br />
                   <a
-                      href={`${file.netapp}`}
-                      target="_blank"
-                      className="relative z-10 rounded-full bg-lighterSecondary px-3 py-1.5 font-medium text-gray-50 hover:bg-secondary"
-                    >
-                      Try it out
-                    </a>
+                    href={`${file.netapp}`}
+                    target="_blank"
+                    className="relative z-10 rounded-full bg-lighterSecondary px-3 py-1.5 font-medium text-gray-50 hover:bg-secondary"
+                  >
+                    Try it out
+                  </a>
                 </div>
               </article>
             ))}
