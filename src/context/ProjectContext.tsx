@@ -34,7 +34,7 @@ const fullProjects = [
       "A custom simple website styled with Mantine, optmizied for performance. This site also has the ability to manage data and more directly from the cms.",
     netapp: "https://www.mightanddelight.com/",
     img: "/main.png",
-    date: "Jan 8, 2023",
+    date: "Jan 30, 2024",
     type: 'Custom'
   },
 
@@ -49,7 +49,7 @@ const frontProjects = [
       "I do freelancing on my freetime, this is my personal consultant website made with UX in mind and developed with Nextjs, Mantine and typescript.",
     netapp: "https://www.sm-dev.se/",
     img: "/consult-page.png",
-    date: "Oct 17, 2023",
+    date: "Apr 22, 2024",
     type: 'Custom'
   },
 
