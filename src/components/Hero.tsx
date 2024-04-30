@@ -20,8 +20,9 @@ const Hero = () => {
               Welcome To My Projects
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Press the "Explore more" button to see my different projects
-              showcasing different types of custom developed web solutions
+              Press the &#34;Explore more&#34; button to see my different
+              projects showcasing different types of custom developed web
+              solutions
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
