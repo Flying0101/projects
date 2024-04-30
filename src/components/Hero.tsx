@@ -1,11 +1,4 @@
 const Hero = () => {
-  const heroText = "Welcome To My Projects";
-  const heroInfo =
-    ' Press the  "Explore more" button to see my different projects showcasing different types of custom developed web solutions';
-
-  const letters = heroText.split("");
-  const infoLetters = heroInfo.split("");
-
   return (
     <div className="bg-white min-h-90vh] " id="hero">
       <div className="relative isolate px-6 pt-14 lg:px-8">
@@ -24,24 +17,11 @@ const Hero = () => {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              {letters.map((letter, index) => (
-                <span
-                  key={index}
-                  className="hover:text-5xl transition-all duration-100 ease-in"
-                >
-                  {letter}
-                </span>
-              ))}
+              Welcome To My Projects
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              {infoLetters.map((letter, index) => (
-                <span
-                  key={index}
-                  className="hover:text-xl transition-all duration-100 ease-in"
-                >
-                  {letter === '"' ? <>&quot;</> : letter}
-                </span>
-              ))}
+              Press the "Explore more" button to see my different projects
+              showcasing different types of custom developed web solutions
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
