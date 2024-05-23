@@ -1,7 +1,6 @@
 'use client'
-import React, { createContext, useState, useContext } from "react";
+import React, { createContext, useContext } from "react";
 
-// Create the context
 const ProjectContext = createContext({});
 
 const fullProjects = [
@@ -9,33 +8,33 @@ const fullProjects = [
     id: "1",
     name: "BoT LoreBook",
     information:
-      "A fully custom web solution using the best NextJs has to offer from static pages to API routes, manage data and more directly from the cms.",
+      "Web app for the game Book of Travels, loaded with an search function to find all the lore in the game. Explore dynamic routes, App router, SSR, Tailwind and more.",
     netapp: "https://lore.bookoftravels.com/",
     img: "/lore.png",
     date: "Nov 1, 2023",
-    type: 'Custom'
+    type: 'Work'
   },
 
   {
     id: "2",
     name: "BookOfTravels",
     information:
-      "A fully custom website with the ability to change part of the website however you wish, manage data and more directly from the cms.",
+      "Website for the game Book of Travels, explore some of the features and news of the game. Developed with NextJs, Tailwind and more.",
     netapp: "https://www.mightanddelight.com/book-of-travels",
     img: "/BoT.png",
     date: "May 30, 2023",
-    type: 'Custom'
+    type: 'Work'
   },
 
   {
     id: "3",
     name: "Might & Delight",
     information:
-      "A custom simple website styled with Mantine, optmizied for performance. This site also has the ability to manage data and more directly from the cms.",
+      "Main website for the company Might & Delight, explore the different games and news. Developed with NextJs, Mantine, DATOcms and more.",
     netapp: "https://www.mightanddelight.com/",
     img: "/main.png",
-    date: "Jan 30, 2024",
-    type: 'Custom'
+    date: "Jan 30, 2023",
+    type: 'Work'
   },
 
 ];
@@ -44,36 +43,25 @@ const fullProjects = [
 const frontProjects = [
   {
     id: "1",
-    name: "Consultant website",
+    name: "Ecom Store",
     information:
-      "I do freelancing on my freetime, this is my personal consultant website made with UX in mind and developed with Nextjs, Mantine and typescript.",
+      "Developed with NextJs, App router, dynamic routes and more of next features, styled with Tailwind. Watches are my passion so I made a store for it..",
+    netapp: "https://watch-ecom.netlify.app/",
+    img: "/watch.png",
+    date: "May 23, 2024",
+    type: 'Hobby'
+  },
+  {
+    id: "2",
+    name: "Consult Landing Page",
+    information:
+      "I do freelancing on my freetime, this is my personal consultant website made with UX in mind and developed with Nextjs and Mantine..",
     netapp: "https://www.sm-dev.se/",
     img: "/consult-page.png",
     date: "Apr 22, 2024",
-    type: 'Custom'
-  },
-
-  {
-    id: "2",
-    name: "Ecom Store",
-    information:
-      "This was my last project from school, this project is on standby at the moment but will be brought to life again soon to be a fully functional ecom store.",
-    netapp: "https://watch-ecom-project.netlify.app/",
-    img: "/watch.png",
-    date: "Dec 20, 2022",
-    type: 'Custom'
-  },
-
-  {
-    id: "3",
-    name: "Track app",
-    information:
-      "This was a project made for fun, make a task and track your performance, goal was to make it as simple as possible with vanilla css and React.",
-    netapp: "https://check-list-edition.netlify.app",
-    img: "/todoapp.png",
-    date: "june 6, 2023",
-    type: 'Custom'
-  },
+    type: 'Hobby'
+  }
+  
 
 ];
 
