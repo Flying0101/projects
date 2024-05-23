@@ -23,7 +23,7 @@ const ProjectTwo = () => {
                 Frontend Projects
               </h2>
               <p className="mt-2 text-lg leading-8 text-gray-600">
-                Checkout out my websites done with no backend.
+                Checkout out some of my latest projects.
               </p>
             </div>
 
