@@ -49,7 +49,7 @@ const frontProjects = [
     netapp: "https://watch-ecom.netlify.app/",
     img: "/watch.png",
     date: "May 23, 2024",
-    type: 'Hobby'
+    type: 'NextJs'
   },
   {
     id: "2",
@@ -59,7 +59,17 @@ const frontProjects = [
     netapp: "https://www.sm-dev.se/",
     img: "/consult-page.png",
     date: "Apr 22, 2024",
-    type: 'Hobby'
+    type: 'NextJs'
+  },
+  {
+    id: "3",
+    name: "Angular Event Timer",
+    information:
+      "Simple event timer made with Angular, I wanted to learn the basics of Angular so I made this project. Developed with Typescript and data is stored in local storage, try it out..",
+    netapp: "https://angular-frontend-challenge.netlify.app/",
+    img: "/angular.png",
+    date: "June 10, 2024",
+    type: 'Angular / Hobby'
   }
   
 
