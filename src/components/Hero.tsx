@@ -17,23 +17,31 @@ const Hero = () => {
           ></div>
         </div>
         <div className="mx-auto max-w-4xl min-h-[90vh] flex justify-around items-center">
-            <Image src="/sm-projects-mobile.png" width={175} height={432} alt="mobile concept" className="px-6 w-auto max-h-[332px] hidden sm:block"/>
-          <div className="text-center max-w-xl content-center">
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Explore My Projects
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Press the &#34;Explore more&#34; button to see my different
-              projects showcasing different types of custom developed web
-              solutions
-            </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#project"
-                className="rounded-md bg-lighterSecondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
-              >
-                Explore more
-              </a>
+          <div className="flex w-full justify-center flex-wrap">
+            <Image
+              src="/sm-projects-mobile.png"
+              width={175}
+              height={432}
+              alt="mobile concept"
+              className="px-6 w-auto max-h-[230px] mb-4 md:mb-0 sm:max-h-[332px]"
+            />
+            <div className="text-center max-w-xl content-center">
+              <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Explore My Projects
+              </h1>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                Press the &#34;Explore more&#34; button to see my different
+                projects showcasing different types of custom developed web
+                solutions
+              </p>
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <a
+                  href="#project"
+                  className="rounded-md bg-lighterSecondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
+                >
+                  Explore more
+                </a>
+              </div>
             </div>
           </div>
         </div>
