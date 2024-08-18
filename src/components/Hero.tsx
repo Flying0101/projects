@@ -17,7 +17,7 @@ const Hero = () => {
           ></div>
         </div>
         <div className="mx-auto max-w-4xl min-h-[90vh] flex justify-around items-center">
-            <Image src="/sm-projects-mobile.png" width={175} height={432} alt="mobile concept" className="px-6 w-auto h-fit hidden sm:block"/>
+            <Image src="/sm-projects-mobile.png" width={175} height={432} alt="mobile concept" className="px-6 w-auto max-h-[332px] hidden sm:block"/>
           <div className="text-center max-w-xl content-center">
             <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Explore My Projects
