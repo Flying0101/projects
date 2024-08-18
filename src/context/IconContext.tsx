@@ -118,6 +118,13 @@ export const IconContextProvider = ({ children }: any) => {
       type: "square",
       back: "white",
     },
+    {
+      id: "5",
+      name: "Figma",
+      img: "/figma-logo.png",
+      type: "square",
+      back: "white",
+    }
   ];
   return (
     <IconContext.Provider value={{ frontTech, backTech, toolTech }}>
