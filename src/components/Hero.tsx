@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 const Hero = () => {
   return (
-    <div className="bg-white min-h-90vh] " id="hero">
+    <div className="bg-white min-h-[90vh] relative" id="hero">
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -14,10 +16,11 @@ const Hero = () => {
             }}
           ></div>
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Welcome To My Projects
+        <div className="mx-auto max-w-4xl min-h-[90vh] flex justify-around items-center">
+            <Image src="/sm-projects-mobile.png" width={175} height={432} alt="mobile concept" className="px-6 w-auto h-fit hidden sm:block"/>
+          <div className="text-center max-w-xl content-center">
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Explore My Projects
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Press the &#34;Explore more&#34; button to see my different
