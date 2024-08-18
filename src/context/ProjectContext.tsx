@@ -12,7 +12,7 @@ const fullProjects = [
     netapp: "https://lore.bookoftravels.com/",
     img: "/lore.png",
     date: "Nov 1, 2023",
-    type: 'Work'
+    type: 'DatoCMS'
   },
 
   {
@@ -23,7 +23,7 @@ const fullProjects = [
     netapp: "https://www.mightanddelight.com/book-of-travels",
     img: "/BoT.png",
     date: "May 30, 2023",
-    type: 'Work'
+    type: 'DatoCMS'
   },
 
   {
@@ -34,7 +34,7 @@ const fullProjects = [
     netapp: "https://www.mightanddelight.com/",
     img: "/main.png",
     date: "Jan 30, 2023",
-    type: 'Work'
+    type: 'DatoCMS'
   },
 
 ];
@@ -53,7 +53,7 @@ const frontProjects = [
   },
   {
     id: "2",
-    name: "Consult Landing Page",
+    name: "Landing Page",
     information:
       "I do freelancing on my freetime, this is my personal consultant website made with UX in mind and developed with Nextjs and Mantine..",
     netapp: "https://www.sm-dev.se/",
