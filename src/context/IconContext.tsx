@@ -8,32 +8,32 @@ export const IconContextProvider = ({ children }: any) => {
   const frontTech = [
     {
       id: "1",
-      name: "NextJs",
-      img: "/nextjs.png",
-      type: "round",
-      back: "black",
-    },
-    {
-      id: "2",
       name: "Typescript",
       img: "/ts-icon.png",
       type: "square",
       back: "white",
     },
     {
-      id: "3",
+      id: "2",
       name: "Javascript",
       img: "/JS-icon.png",
       type: "square",
       back: "white",
     },
     {
-      id: "4",
+      id: "3",
       name: "ReactJs",
       img: "/reactjs.png",
       type: "square",
       back: "white",
     },
+    {
+      id: "4",
+      name: "NextJs",
+      img: "/nextjs.png",
+      type: "round",
+      back: "black",
+    }
     ,
     {
       id: "5",
@@ -44,20 +44,13 @@ export const IconContextProvider = ({ children }: any) => {
     },
     {
       id: "6",
-      name: "Mantine",
-      img: "/mantine.png",
-      type: "round",
-      back: "white",
-    },
-    {
-      id: "7",
       name: "HTML",
       img: "/html-icon.png",
       type: "square",
       back: "white",
     },
     {
-      id: "8",
+      id: "7",
       name: "CSS",
       img: "/css-icon.png",
       type: "square",
@@ -68,25 +61,39 @@ export const IconContextProvider = ({ children }: any) => {
   const backTech = [
     {
       id: "1",
+      name: "C#",
+      img: "/csharp-icon.png",
+      type: "square",
+      back: "white",
+    },
+    {
+      id: "2",
       name: "NodeJs",
       img: "/nodejs-icon.png",
       type: "square",
       back: "white",
     },
     {
-      id: "2",
+      id: "3",
       name: "Jest",
       img: "/jest-icon.png",
       type: "square",
       back: "white",
     },
     {
-      id: "3",
+      id: "4",
       name: "GraphQL",
       img: "/graphql.png",
       type: "square",
       back: "white",
     },
+    {
+      id: "5",
+      name: "SQL",
+      img: "/sql.png",
+      type: "square",
+      back: "white",
+    }
   ];
 
   const toolTech = [
