@@ -26,9 +26,9 @@ const ToolStack = () => {
               src={icon.img}
               className={`${icon.type === "round" ? "rounded-[10rem]" : ""} ${
                 icon.back === "black" ? "bg-black" : ""
-              } mx-auto h-auto w-auto max-h-[60px] md:max-h-[100px]`}
+              }mx-auto h-auto w-auto max-h-[60px] md:max-h-[100px]`}
             />
-            <p className="h-fit w-full text-center">{icon.name}</p>
+            <p className="pt-3 h-fit w-full text-center">{icon.name}</p>
           </div>
         </span>
       ))}
