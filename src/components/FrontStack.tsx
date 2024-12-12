@@ -1,6 +1,8 @@
 import { useIcons } from "@/context/IconContext";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
+import Image from "next/image";
+
 const FrontStack = () => {
   const { frontTech }: any = useIcons();
   const ref = useRef(null);
@@ -12,7 +14,7 @@ const FrontStack = () => {
     >
       {frontTech.map((icon: any) => (
         <span
-        key={icon.id}
+          key={icon.id}
           style={{
             transform: isInView ? "none" : "translateX(-300px)",
             opacity: isInView ? 1 : 0,
@@ -20,12 +22,14 @@ const FrontStack = () => {
           }}
         >
           <div className="w-full max-w-[100px] justify-center ">
-            <img
-            alt="icon"
+            <Image
               src={icon.img}
+              width={100}
+              height={100}
+              alt={`${icon.name} logo`}
               className={`${icon.type === "round" ? "rounded-[10rem]" : ""} ${
                 icon.back === "black" ? "bg-black" : ""
-              } mx-auto h-auto w-auto max-h-[60px] md:max-h-[100px]`}
+              } mx-auto h-auto w-auto max-h-[60px] md:max-h-[90px]`}
             />
             <p className="pt-3 h-fit w-full text-center">{icon.name}</p>
           </div>
