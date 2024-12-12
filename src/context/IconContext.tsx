@@ -75,8 +75,8 @@ export const IconContextProvider = ({ children }: any) => {
     },
     {
       id: "3",
-      name: "Jest",
-      img: "/jest-icon.png",
+      name: "NestJs",
+      img: "/nest-icon.png",
       type: "square",
       back: "white",
     },
@@ -91,6 +91,13 @@ export const IconContextProvider = ({ children }: any) => {
       id: "5",
       name: "SQL",
       img: "/sql.png",
+      type: "square",
+      back: "white",
+    },
+    {
+      id: "6",
+      name: "Jest",
+      img: "/jest-icon.png",
       type: "square",
       back: "white",
     }
