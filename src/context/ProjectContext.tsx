@@ -56,7 +56,7 @@ const frontProjects = [
     name: "Landing Page",
     information:
       "Back when i did freelancing, this was my personal consultant website made with UX in mind and developed with Nextjs and Mantine..",
-    netapp: "https://www.sm-dev.se/",
+    netapp: "https://sm-web1.netlify.app/",
     img: "/consult-page.png",
     date: "Apr 22, 2024",
     type: 'NextJs'
