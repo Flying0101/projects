@@ -33,24 +33,30 @@ export const IconContextProvider = ({ children }: any) => {
       img: "/nextjs.png",
       type: "round",
       back: "black",
-    }
-    ,
+    },
     {
       id: "5",
+      name: "Mantine",
+      img: "/mantine.png",
+      type: "square",
+      back: "white",
+    },
+    {
+      id: "6",
       name: "Tailwind",
       img: "/tailwind.png",
       type: "square",
       back: "white",
     },
     {
-      id: "6",
+      id: "7",
       name: "HTML",
       img: "/html-icon.png",
       type: "square",
       back: "white",
     },
     {
-      id: "7",
+      id: "8",
       name: "CSS",
       img: "/css-icon.png",
       type: "square",
@@ -100,7 +106,7 @@ export const IconContextProvider = ({ children }: any) => {
       img: "/jest-icon.png",
       type: "square",
       back: "white",
-    }
+    },
   ];
 
   const toolTech = [
@@ -138,7 +144,7 @@ export const IconContextProvider = ({ children }: any) => {
       img: "/figma-logo.png",
       type: "square",
       back: "white",
-    }
+    },
   ];
   return (
     <IconContext.Provider value={{ frontTech, backTech, toolTech }}>
